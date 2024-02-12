@@ -547,7 +547,7 @@ img {
     position: absolute;
     top: 0;
     gap: 3rem;
-    z-index: 1;
+    z-index: 3;
     font-family: font;
     justify-content: center;
 }
