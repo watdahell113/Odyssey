@@ -541,13 +541,13 @@ img {
 
 .descholder {
     display: flex;
+    flex-basis: 0;
+    height: 90%;
     width: 90%;
     align-items: center;
-    height: 90%;
     position: absolute;
     top: 0;
     gap: 3rem;
-    z-index: 3;
     font-family: font;
     justify-content: center;
 }
@@ -557,6 +557,7 @@ img {
     width: 25%;
     height: 40%;
     border-radius: 10px;
+    position: relative;
     transition: 500ms;
     font-size: 25px;
     text-align: center;
@@ -564,7 +565,7 @@ img {
     font-family: nexa;
     color: var(--accent-color);
     opacity: 0;
-    z-index: 3;
+    z-index: 1;
 }
 
 
@@ -573,13 +574,14 @@ img {
     width: 25%;
     height: 25%;
     font-size: 25px;
+    position: relative;
     border-radius: 10px;
     transition: 500ms;
     filter: drop-shadow(0 0 0.5rem black);
     font-family: nexa;
     color: var(--accent-color);
     opacity: 0;
-    z-index: 3;
+    z-index: 1;
 }
 
 .gamename {
