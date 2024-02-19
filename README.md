@@ -11,6 +11,8 @@ The Powerful yet lightweight proxy allows you to host xenapsis even on a static 
 
 Just type in anything and you get it, for more info read the <a href="https://github.com/xenapsis/staticproxy">offical xenapsis proxy</a>
 
+But this part is a bit different if your using the bare version of Xenapsis. For it to work for the bare version you need to setup a server. But it is more reliable and wont be blocked on any website for example the static version needs a excisting bare server hosted on something like vercel so if vercel is blocked the proxy wouldnt work but on the bare server its hosted on the website so if the website is unblocked so is the proxy.
+
 <h1>Deploying Xenapsis</h1>
 
 Deploying xenapsis couldnt be easier just pick from any of the providers listed to get a easy website. <br><br><br>
